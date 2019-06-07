@@ -18,3 +18,18 @@ async def on_message(message):
 
 token = os.environ.get("DISCORD_BOT_SECRET")
 client.run(token)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
