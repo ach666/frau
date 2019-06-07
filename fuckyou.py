@@ -1,6 +1,5 @@
 import discord
 import os
-import asyncio
 
 client = discord.Client()
 
@@ -18,7 +17,7 @@ async def on_message(message):
         await client.send_message(message.channel,"OHHHHHHHHHHHHHHH YEAHHHHHHHHH!!!!!!!!!!!!!!!!!!!!!!")
        
       if ("poop" in message.content.lower()):
-        await client.send_message(message.channel, "I'M SHIDDING. SHIDDING AND FARDING.")
+        await client.send_message(message.channel,"I'M SHIDDING. SHIDDING AND FARDING.")
 
 token = os.environ.get("DISCORD_BOT_SECRET")
 client.run(token)
