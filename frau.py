@@ -6,13 +6,10 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-  await client.change_presence(game=discord.Game(name="please help me get a date with nito"))
+  await client.change_presence(game=discord.Game(name="porno make me horno"))
 
 @client.event
 async def on_message(message):
-    
-
-    
     if message.author != client.user:
       if ("training" in message.content.lower()) or ("sister doll" in message.content.lower()) or 
        ("frau" in message.content.lower()) or ("sex" in message.content.lower()):
