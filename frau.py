@@ -17,6 +17,9 @@ async def on_message(message):
       msg = message.content.lower()
       if ("training" in msg) or ("sister doll" in msg) or ("frau" in msg) or ("sex" in msg):
         await client.send_message(message.channel,"OHHHHHHHHHHHHHHH YEAHHHHHHHHH!!!!!!!!!!!!!!!!!!!!!!")
+       
+      if ("poop" in msg):
+        await client.send_message(message.channel, "I'M SHIDDING. SHIDDING AND FARDING.")
 
 token = os.environ.get("DISCORD_BOT_SECRET")
 client.run(token)
