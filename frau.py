@@ -9,6 +9,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+
     if message.author != client.user:
       if ("training" in message.content.lower()) or ("frau" in message.content.lower()) or ("sex" in message.content.lower()):
         await client.send_message(message.channel,"OHHHHHHHHHHHHHHH YEAHHHHHHHHH!!!!!!!!!!!!!!!!!!!!!!")
@@ -18,18 +19,3 @@ async def on_message(message):
 
 token = os.environ.get("DISCORD_BOT_SECRET")
 client.run(token)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
