@@ -4,10 +4,6 @@ import os
 client = discord.Client()
 
 @client.event
-async def on_ready():
-  await client.change_presence(game=discord.Game(name="porno make me horno"))
-
-@client.event
 async def on_message(message):
 
     if message.author != client.user:
