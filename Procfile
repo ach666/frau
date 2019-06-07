@@ -1,1 +1,1 @@
-worker: python3 frau.py
+worker: python3 fuckyou.py
