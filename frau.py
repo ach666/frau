@@ -6,6 +6,8 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
+  print("i'm in")
+  print(client.user)
   await client.change_presence(game=discord.Game(name="porno make me horno"))
 
 @client.event
