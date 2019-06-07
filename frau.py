@@ -1,6 +1,5 @@
 import discord
 import os
-import random
 
 client = discord.Client()
 
