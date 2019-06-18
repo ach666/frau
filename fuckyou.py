@@ -18,6 +18,9 @@ async def on_message(message):
        
       if ("poop" in message.content.lower()):
         await channel.send("I'M SHIDDING. SHIDDING AND FARDING.")
+      
+      if ("milk" in messge.content.lower()):
+        await channel.send("milk me hard")
 
 token = os.environ.get("DISCORD_BOT_SECRET")
 client.run(token)
