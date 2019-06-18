@@ -19,7 +19,7 @@ async def on_message(message):
       elif ("poop" in message.content.lower()):
         await channel.send("I'M SHIDDING. SHIDDING AND FARDING.")
       
-      elif ("milk" in message.content.lower()):
+      elif ("milk" in message.content.lower()) or ("prostate" in message.content.lower()):
         await channel.send("milk me hard")
 
 token = os.environ.get("DISCORD_BOT_SECRET")
