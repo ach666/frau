@@ -24,6 +24,9 @@ async def on_message(message):
        
       elif ("idil" in message.content.lower()):
         await channel.send("oh my alpha dom 🤤")
+        
+      elif ("kona" in message.content.lower()):
+        await channel.send("step on me omega queen 😍🤪")
       
       elif ("hito wa mata" in message.content.lower()):
         await channel.send("""hito wa mata oroka na sentaku wo kitto kurikaeshite iku darou
