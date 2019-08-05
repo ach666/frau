@@ -21,6 +21,9 @@ async def on_message(message):
       
       elif ("milk" in message.content.lower()):
         await channel.send("milk me hard")
+       
+      elif ("idil" in message.content.lower()):
+        await channel.send("oh my alpha dom 🤤")
       
       elif ("hito wa mata" in message.content.lower()):
         await channel.send("""hito wa mata oroka na sentaku wo kitto kurikaeshite iku darou
