@@ -22,6 +22,9 @@ async def on_message(message):
       elif ("milk" in message.content.lower()):
         await channel.send("milk me hard")
        
+      elif ("capella" in message.content.lower()):
+        await channel.send("my tiny son!!!!!!!!!!!!!!!!")
+      
       elif ("idil" in message.content.lower()):
         await channel.send("oh my alpha dom 🤤")
         
