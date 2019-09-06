@@ -24,6 +24,18 @@ async def on_message(message):
       
       elif ("milk" in message.content.lower()):
         await channel.send("milk me hard")
+      
+      elif ("castor" in message.content.lower()):
+        await channel.send("Pussy.")
+       
+      elif ("teito" in message.content.lower()):
+        await channel.send("i'm so proud of you teito")
+      
+      elif ("r slur" or "r-slur" in message.content.lower()):
+        await channel.send("Rasetsu.")
+      
+      elif ("lab" in message.content.lower()):
+        await channel.send("my dick is fucking MASSIVE and i can benchpress you and your entire family")
        
       elif ("capella" in message.content.lower()):
         await channel.send("my tiny son!!!!!!!!!!!!!!!!")
