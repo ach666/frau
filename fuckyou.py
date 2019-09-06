@@ -31,7 +31,7 @@ async def on_message(message):
       elif ("teito" in message.content.lower()):
         await channel.send("i'm so proud of you teito")
       
-      elif ("r slur" or "r-slur" in message.content.lower()):
+      elif ("r-slur" in message.content.lower()):
         await channel.send("Rasetsu.")
       
       elif ("lab" in message.content.lower()):
