@@ -27,7 +27,10 @@ async def on_message(message):
       
       elif ("castor" in message.content.lower()):
         await channel.send("Pussy.")
-       
+      
+      elif ("lance" in message.content.lower()):
+        await channel.send("stupid whore i'll eat your boy pussy")
+      
       elif ("teito" in message.content.lower()):
         await channel.send("i'm so proud of you teito")
       
