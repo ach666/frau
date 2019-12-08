@@ -15,7 +15,10 @@ async def on_message(message):
 
       if ("training" in message.content.lower()) or ("frau" in message.content.lower()) or ("sex" in message.content.lower()):
         await channel.send("OHHHHHHHHHHHHHHH YEAHHHHHHHHH!!!!!!!!!!!!!!!!!!!!!!")
-       
+      
+      elif ("feet" in message.content.lower()):
+        await channel.send("SNFNFFFFFFFF SNF SNF SNIFFFFFFFFFFFF ahhh... i love the smell of 3-day sweaty smelly feet [plays footsie with you]")
+      
       elif ("poop" in message.content.lower()):
         await channel.send("I'M SHIDDING. SHIDDING AND FARDING.")
       
