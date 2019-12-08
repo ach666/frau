@@ -30,6 +30,9 @@ async def on_message(message):
       
       elif ("lance" in message.content.lower()):
         await channel.send("stupid whore i'll eat your boy pussy")
+        
+      elif ("france" in message.content.lower()):
+        await channel.send("otp of the world youtube dramageddon")
       
       elif ("teito" in message.content.lower()):
         await channel.send("i'm so proud of you teito")
