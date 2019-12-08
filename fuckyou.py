@@ -25,6 +25,9 @@ async def on_message(message):
       elif ("nika" in message.content.lower()):
         await channel.send("loml hi babey ;)")
       
+      elif ("ea" in message.content.lower()):
+        await channel.send("lol blind ass bitch")
+      
       elif ("dick" in message.content.lower()):
         await channel.send(file=discord.File("hmmm.jpg"))
       
