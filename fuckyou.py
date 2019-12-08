@@ -20,7 +20,7 @@ async def on_message(message):
         await channel.send("I'M SHIDDING. SHIDDING AND FARDING.")
       
       elif ("nika" in message.content.lower()):
-        await channel.send(file=discord.File("loml hi babey ;)"))
+        await channel.send("loml hi babey ;)")
       
       elif ("dick" in message.content.lower()):
         await channel.send(file=discord.File("hmmm.jpg"))
